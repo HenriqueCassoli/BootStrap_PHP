@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    min-height: 400px;
+    background-image: url("/BootStrap e PHP/img/escritorio.jpg");
+    width: 100%;
+    /*background-color: black;*/
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+}
+.col-md-12{
+    text-align: center;
+
+}
+.col-md-12 h1{
+ color: white;
+ font-size: 90px;
+}
+.col-md-12 p{
+    color: white;
+   }
+.box{
+position: relative;
+top: 10px;
+}
+
+section.cadastro-lead{
+    background-color: #0d6efd;
+    padding:20px 0;
+}
+section.cadastro-lead h2{
+    color: white;
+}
+section.cadastro-lead input[type=text]{
+    width: 90%;
+    height: 40px;
+    border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+section.cadastro-lead input[type=submit]{
+    width: 30%;
+   height: 40px;
+   border: 1px solid #ccc;
+   background-color: #0d6efd;
+   color: white;
+   border-radius: 0.3rem;
+}
+section.dif{
+    padding: 20px;
+    background-color:#0d6efd ;
+}
+section.equipe h2{
+    margin: 0;
+    text-align: center;
+    padding: 20px 2%;
+}
+.equipe-container{padding:30px 0;}
+.equipe-single{
+width: 100%;
+padding: 20px 10px;
+border: 1px solid #ccc;
+box-shadow: 8px 7px 5px -3px rgba(20,20,20,0.6);
+}
+section.final-site input{
+       margin: 20px;
+}
+.user-picture{
+width: 100%;
+padding-top: 100%;
+background-color:#ccc;
+border-radius: 50%;
+}
+section.final-site{
+    padding: 30px 0;
+    background-color: rgb(225,225,225);
+}
+section.final-site .col-md-6{
+    padding: 30px;
+}
+section.final-site .mb-3{
+    height: 100px;
+    margin: 20px;
+}
+section.final-site input.form-control{
+    margin-right: 500px;
+}
+input.form-control{
+  text-align: center;
+}
+button{
+  margin: 10px;
+  margin-left: 400px;
+  text-align: center;
+}
+footer{
+    background-color:#0d6efd ;
+    padding: 5px;
+    color: white;
+}
